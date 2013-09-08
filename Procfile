@@ -1,1 +1,1 @@
-web: gunicorn --paster production.ini
+web: gunicorn -b 127.0.0.1:$PORT --paster production.ini
