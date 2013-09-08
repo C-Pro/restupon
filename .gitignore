@@ -1,0 +1,16 @@
+*.egg-info
+.project
+.pydevproject
+/.settings
+/.metadata
+/build
+/dist
+__pycache__
+*.pyc
+*.bundle
+*.orig
+*.*~
+*.log
+*.pid
+log.txt
+
