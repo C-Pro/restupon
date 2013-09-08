@@ -1,1 +1,1 @@
-web: guincorn --paster production.ini
+web: gunicorn --paster production.ini
