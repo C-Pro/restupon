@@ -10,6 +10,7 @@ requires = [
     'pyramid',
     'pyramid_debugtoolbar',
     'waitress',
+    'gunicorn'
     ]
 
 setup(name='restupon',
