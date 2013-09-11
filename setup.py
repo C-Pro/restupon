@@ -7,10 +7,11 @@ README = open(os.path.join(here, 'README.txt')).read()
 CHANGES = open(os.path.join(here, 'CHANGES.txt')).read()
 
 requires = [
-    'pyramid',
-    'pyramid_debugtoolbar',
-    'waitress',
-    'gunicorn'
+    'pyramid==1.4.4',
+    'pyramid_debugtoolbar==1.0.2',
+    'waitress==0.8.1',
+    'gunicorn==18.0',
+    'pymongo==2.6.2'
     ]
 
 setup(name='restupon',
